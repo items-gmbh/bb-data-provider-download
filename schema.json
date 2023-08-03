@@ -1,0 +1,28 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "bb-download",
+    "friendlyName": "Data Provider CSV-Download",
+    "description": "download button",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "key": "filename",
+        "label": "Filename"
+      },
+      { 
+        "type": "dataProvider",
+        "key": "dataProvider",
+        "label": "Data Provider",
+        "required": true
+      }
+    ]
+  }
+}
